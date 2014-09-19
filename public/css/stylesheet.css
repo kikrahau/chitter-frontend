@@ -1,0 +1,111 @@
+body {
+  height:1000px;
+  width:100%;
+  background-image: url(https://abs.twimg.com/images/themes/theme1/bg.png);
+  background-position: left 40px;
+	background-attachment: fixed;
+	background-repeat: repeat;
+  background-repeat: no-repeat;
+	background-color: #C0DEED;
+	font-family: 'Arimo', sans-serif;
+	margin: 0px;
+}
+
+nav {
+	width: 100%;
+  position: fixed;
+  top:0px;
+  background:#FFF;
+	height:50px;
+	border-bottom: 1px solid rgba(0,0,0,0.05)
+}
+
+.nav-wrapper {
+	width: 1190px;
+	margin:0px auto;
+}
+
+nav ul {
+	margin-left:0;
+}
+nav li{
+	list-style-type: none;
+	font-size: 16px;
+	color: rgb(41, 47, 51);
+	display: block;
+	float: left;
+	text-align: center;
+	margin-left: 1em;
+	font-weight: bold;
+}
+
+#content {
+		width:1190px;
+    background: transparent;
+    max-height: 2000px;
+    margin: 65px auto;
+}
+
+.dashboard-left {
+	height: 514px;
+	width: 300px;
+	margin-right: 0;
+	display: inline-block;
+	float: left;
+}
+
+.profilecard {
+	background: #FFF;
+	border: 1px solid #e1e8ed;
+	border-radius: 6px;
+	height: 254px;
+	width: 290px;
+}
+
+.top {
+	width: 290px;
+	height: 90px;
+}
+
+.trends {
+	margin-top: 10px;
+	background: #FFF;
+	height: 240px;
+	width: 290px;
+	border-radius: 6px;
+	border: 1px solid #e1e8ed;
+}
+
+.content-main {
+	height: 2000px;
+	width: 580px;
+	background: #FFF;
+	border-radius: 6px;
+	display: inline-block;
+}
+
+.dashboard-right {
+	height: 514px;
+	width: 300px;
+	margin-right: 0;
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+}
+
+.follow {
+	background: #FFF;
+	border: 1px solid #e1e8ed;
+	border-radius: 6px;
+	height: 254px;
+	width: 290px;
+}
+
+.about {
+	margin-top: 10px;
+	background: #FFF;
+	height: 240px;
+	width: 290px;
+	border-radius: 6px;
+	border: 1px solid #e1e8ed;
+}
