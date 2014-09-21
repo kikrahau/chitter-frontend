@@ -8,20 +8,21 @@
 <body>
 	<nav>
 		<div class="nav-wrapper">
-			<ul>
-	    		<li>
-	    			<a href="">Home</a> 
+			<ul class="navlist">
+	    		<li class="home">
+	    			<span class="icon"></span>
+	    				<a class="link" href="">Home</a> 
 	    		</li>
-				<li>
-	    			<a href="">Notifications</a> 
+    			<li class="notifications">
+	    				<a class="link" href="">Notifications</a>
+	    		</li>
+	    		<li class="discover">
+	    				<a class="link" href="">Discover</a> 
+	    		</li>
+	    		<li class="me">
+	    				<a class="link" href="">Me</a> 
+	    		</li>
 
-				</li>
-				<li>
-					<a href="">Discover</a> 
-				</li>
-				<li>
-					<a href="">Me</a> 
-				</li>
 			</ul>
 		</div>
 	</nav>
@@ -29,20 +30,94 @@
 		<aside class="dashboard-left">
 			<div class="profilecard">
 				<div class="top">
-					
+					<div class="details">
+						<img src="public/images/profile.jpeg">
+						<span class="name">
+							<strong>Vincent</strong><br>
+							<span id="twitterid">@vunznt</span>
+						</span>
+					</div>
+					<div class="stats">
+	    			<ul>
+	    				<li>
+	    					<a class="u-block">
+				          <span>Tweets</span><br>
+				          <spanclass class="stat-value">1</span>
+				        </a>
+	    				</li>
+	    				<li>
+    						<a class="u-block">
+			            <span>Following</span><br>
+			            <span class="stat-value">27</span>
+		             </a>
+			        </li>
+			        <li>
+		            <span >Followers</span><br>
+		            <span class="stat-value">9</span>
+	      			</li>
+	    			</ul>
+  				</div>
+  				<div class="tweet-box">
+  					<form action="post" class="tweet">
+  						<input type="text" value="Compse new Tweet...">
+  					</form>
+  				</div>
 				</div>
 			</div>
 			<div class="trends">
-
+				<div class="inner">
+					<div class="title">
+						<h3>Trends</h1>
+					</div>
+					<div class="hashtags">
+						<ul>
+							<li>
+								<a href="">#VincentIstGeil</a>
+							</li>
+							<li>
+								<a href="">#MakersAcademy</a>
+							</li>
+							<li>
+								<a href="">#LOL</a>
+							</li>
+							<li>
+								<a href="">#Part</a>
+							</li>
+							<li>
+								<a href="">#Aufschrei</a>
+							</li>
+							<li>
+								<a href="">#TwitterSucks</a>
+							</li>
+							<li>
+								<a href="">#ChitterRules</a>
+							</li>
+							<li>
+								<a href="">#LOL</a>
+							</li>
+							<li>
+								<a href="">#Baah</a>
+							</li>
+							<li>
+								<a href="">#RubyWiredoGeeks</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
 			</div>
 			
 		</aside>
 		<div class="content-main">
-			
+			<div class="title">
+				<h3>Tweets</h3>
+			</div>
 		</div>
 		<aside class="dashboard-right">
 			<div class="follow">
-				weqwe
+				<div class="title">
+					<h3>Who to follow</h3>
+				</div>	
 			</div>
 			<div class="about">
 

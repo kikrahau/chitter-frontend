@@ -9,6 +9,34 @@ body {
 	background-color: #C0DEED;
 	font-family: 'Arimo', sans-serif;
 	margin: 0px;
+	font-weight: bold;
+	color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color:#0084B4;
+}
+
+a:visited {
+    text-decoration: none;
+    /*color:#0084B4;*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h3 {
+	color: #66757f;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin: 0px
 }
 
 nav {
@@ -16,7 +44,7 @@ nav {
   position: fixed;
   top:0px;
   background:#FFF;
-	height:50px;
+	height:47px;
 	border-bottom: 1px solid rgba(0,0,0,0.05)
 }
 
@@ -25,8 +53,43 @@ nav {
 	margin:0px auto;
 }
 
+.navlist .home {
+    width: 40px;
+    background: url('https://abs.twimg.com/a/1410989493/img/t1/twitter_web_sprite_icons.png') 0px -50px;
+    line-height: 22px;
+    margin-right: 3em;
+}
+
+.navlist .notifications {
+    width: 40px;
+    background: url('https://abs.twimg.com/a/1410989493/img/t1/twitter_web_sprite_icons.png') -160px -50px;
+    line-height: 22px;
+    margin-right: 6.5em;
+
+}
+
+.navlist .discover {
+    width: 40px;
+    background: url('https://abs.twimg.com/a/1410989493/img/t1/twitter_web_sprite_icons.png') -40px -50px;
+    line-height: 22px;
+    margin-right: 4.5em;
+
+}
+
+.navlist .me {
+    width: 40px;
+    background: url('https://abs.twimg.com/a/1410989493/img/t1/twitter_web_sprite_icons.png') -120px -50px;
+    line-height: 22px;
+}
+
+.link {
+	margin-left: 24px;
+	color: rgb(102, 117, 127);
+}
+
 nav ul {
 	margin-left:0;
+	padding: 0;
 }
 nav li{
 	list-style-type: none;
@@ -35,38 +98,106 @@ nav li{
 	display: block;
 	float: left;
 	text-align: center;
-	margin-left: 1em;
 	font-weight: bold;
+}
+
+#home {
+    left: 10px;
+    width: 40px;
+    background: url('https://abs.twimg.com/a/1410989493/img/t1/twitter_web_sprite_icons.png') 0px -50px;
 }
 
 #content {
 		width:1190px;
     background: transparent;
     max-height: 2000px;
-    margin: 65px auto;
+    margin: 58px auto;
 }
 
 .dashboard-left {
-	height: 514px;
 	width: 300px;
 	margin-right: 0;
 	display: inline-block;
 	float: left;
+	overflow:hidden
 }
 
 .profilecard {
 	background: #FFF;
 	border: 1px solid #e1e8ed;
 	border-radius: 6px;
-	height: 254px;
+	height: 259px;
 	width: 290px;
+	overflow:hidden
 }
 
 .top {
 	width: 290px;
-	height: 90px;
+	height: 96px;
+	background-color: #0084b4;
+	border-radius: 6px 6px 0 0;
 }
 
+.details img{
+	border-radius: 6px;
+	border: 3px solid #FFF;
+	display: inline;	
+	margin-top: 65px;
+	margin-left: 10px;
+}
+
+#twitterid {
+	font-size: 12px;
+	color: #66757f;
+}
+
+.stats {
+}
+.stats ul {
+	padding-left: 10px;
+	display: table;
+	box-sizing: border-box;
+	display: table;
+	min-width: 100%;
+	margin: 10px 0px 0px 10px;
+}
+
+.u-block {
+	display: block;
+}
+.stats ul li{
+	list-style-type: none;
+	display: table-cell;	
+	color: #8c9ca9;
+	font-size: 10px;
+	text-transform: uppercase;
+	transition: color .15s ease-in-out;
+	overflow: hidden;
+}
+.stat-value {
+	font-size: 18px;
+	color: #0084B4;
+}
+
+.tweet-box {
+	padding: 12px;
+	border: 1px solid;
+	border-color: rgb(191, 224, 236);
+	border-radius: 0 0 5px 5px;
+	background-color: #E5F2F7;
+	text-align: center;
+	margin-top: 11px;
+}
+.tweet-box input {
+	width: 95%;
+	height: 28px;
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: rgb(191, 224, 236);
+	color: #8c9ca9;
+	font-size: 14px;
+	padding-left: 12px;
+}
 .trends {
 	margin-top: 10px;
 	background: #FFF;
@@ -76,14 +207,41 @@ nav li{
 	border: 1px solid #e1e8ed;
 }
 
+.inner {
+	padding: 15px
+}
+
+.hashtags ul {
+	padding: 0;
+	margin: 8px 0;
+}
+
+.hashtags ul li {
+	list-style: none;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+}
+.name {
+	position: absolute;
+	top: 168px;
+	left: 140px;
+	font-weight: 1200;
+}
+
 .content-main {
 	height: 2000px;
-	width: 580px;
+	width: 578px;
 	background: #FFF;
 	border-radius: 6px;
+	border: 1px solid #e1e8ed;
 	display: inline-block;
 }
 
+.content-main .title {
+	padding: 12px;
+	border-bottom: 1px solid #e1e8ed;
+}
 .dashboard-right {
 	height: 514px;
 	width: 300px;
@@ -99,6 +257,10 @@ nav li{
 	border-radius: 6px;
 	height: 254px;
 	width: 290px;
+}
+
+.follow .title {
+	padding: 12px;
 }
 
 .about {
